@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Comment résilier l&#x27;abonnement mensuel aircal - aircal</title>
+<style>
+:root {
+  --text: #1a1a1a;
+  --text-sub: #555;
+  --text-link: #1e6bff;
+  --bg: #ffffff;
+  --bg-card: #f7f7f8;
+  --bg-step-even: #ffffff;
+  --bg-step-odd: #f4f4f5;
+  --border: #e6e6ea;
+  --accent: #1e6bff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #ececec;
+    --text-sub: #b0b0b0;
+    --text-link: #76a8ff;
+    --bg: #121212;
+    --bg-card: #1c1c1e;
+    --bg-step-even: #1a1a1c;
+    --bg-step-odd: #1e1e22;
+    --border: #2d2d31;
+    --accent: #76a8ff;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+               "Hiragino Sans", "Yu Gothic", "Noto Sans", "Segoe UI", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.7;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+  font-size: 16px;
+}
+a { color: var(--text-link); text-decoration: underline; text-decoration-color: var(--text-link); }
+a:hover { opacity: 0.85; }
+header.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+header.top .crumb { color: var(--text-sub); font-size: 14px; }
+header.top .back { font-size: 14px; }
+h1.doctitle {
+  text-align: center;
+  font-size: 22px;
+  margin: 16px 0 24px;
+}
+h2 {
+  font-size: 18px;
+  margin: 28px 0 8px;
+}
+h3 {
+  font-size: 16px;
+  margin: 20px 0 6px;
+}
+p { margin: 6px 0; }
+section { margin-bottom: 16px; }
+.preamble { margin-bottom: 20px; }
+ol.numbered, ul.bullet { padding-left: 0; list-style: none; margin: 8px 0; }
+ol.numbered li { padding-left: 32px; position: relative; margin: 4px 0; }
+ol.numbered li .num { position: absolute; left: 8px; }
+ul.bullet li { padding-left: 24px; position: relative; margin: 4px 0; }
+ul.bullet li::before { content: "・"; position: absolute; left: 8px; }
+
+.steps {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  margin: 12px 0 4px;
+}
+.step { padding: 16px; }
+.step-even { background: var(--bg-step-even); }
+.step-odd { background: var(--bg-step-odd); }
+.step-row { display: flex; align-items: flex-start; gap: 12px; }
+.step-num {
+  flex: 0 0 24px; width: 24px; height: 24px;
+  border-radius: 50%;
+  background: rgba(120,120,120,0.12);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.step-desc { flex: 1; font-size: 15px; }
+.step-title { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+.step-desc-titled { font-size: 15px; }
+.step-img { margin-top: 12px; }
+.step-img-indent { padding-left: 36px; }
+.step-img img { width: 100%; border-radius: 12px; display: block; }
+
+.img-card { margin: 12px 0; text-align: center; }
+.img-card img { max-width: 100%; border-radius: 12px; }
+.img-card.img-tall img { max-width: 240px; }
+.img-card.img-wide img { max-width: 100%; }
+
+.external-link { margin-top: 12px; }
+
+.related { margin-top: 16px; }
+
+.platform-tab { margin: 12px 0; }
+.platform-label {
+  display: inline-block;
+  padding: 2px 10px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 12px;
+  border-radius: 999px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.toc-section { margin-bottom: 28px; }
+.toc-section h2 { margin-top: 12px; }
+.toc-list { list-style: none; padding: 0; margin: 8px 0; }
+.toc-list li { padding: 10px 0; border-bottom: 1px solid var(--border); }
+.toc-list li:last-child { border-bottom: none; }
+.toc-list a { display: block; text-decoration: none; color: var(--text); }
+.toc-list a::after { content: " ›"; color: var(--text-sub); }
+.toc-list a:hover { color: var(--text-link); }
+
+.lang-list { list-style: none; padding: 0; column-count: 2; column-gap: 24px; }
+.lang-list li { padding: 6px 0; }
+@media (min-width: 600px) {
+  .lang-list { column-count: 3; }
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <span class="crumb">Questions fréquentes (FAQ)</span>
+  <a class="back" href="../../">Questions fréquentes (FAQ)</a>
+</header>
+<h1 class="doctitle">Comment résilier l&#x27;abonnement mensuel aircal</h1>
+<section class="legal-article">
+<h2>À propos de l&#x27;abonnement mensuel (aircal Pro)</h2>
+<p>L&#x27;abonnement mensuel d&#x27;aircal (aircal Pro) est fourni sous forme d&#x27;abonnement (achat récurrent) via App Store / Google Play.</p>
+<p>La résiliation s&#x27;effectue donc dans la « gestion des abonnements » de chaque magasin, et non dans l&#x27;application aircal.</p>
+</section>
+<section class="legal-article">
+<h2>À vérifier avant la résiliation</h2>
+<ul class="bullet">
+<li>Même résilié, vous conservez l&#x27;accès aux fonctions payantes jusqu&#x27;à la prochaine date de renouvellement (l&#x27;arrêt n&#x27;est pas immédiat)</li>
+<li>Après la résiliation, vous pouvez continuer à utiliser l&#x27;application (vous revenez aux fonctionnalités gratuites)</li>
+<li>La suppression du compte (désinscription) n&#x27;entraîne pas automatiquement la résiliation de l&#x27;abonnement. Veillez à le résilier dans le magasin concerné.</li>
+</ul>
+</section>
+<div class="platform-tab" data-platform="ios">
+<div class="platform-label">iOS</div>
+<section class="legal-article">
+<h2>Comment résilier l&#x27;abonnement</h2>
+<ol class="numbered">
+<li><span class="num">1.</span>Ouvrez l&#x27;app Réglages</li>
+<li><span class="num">2.</span>Touchez votre identifiant Apple (votre nom) en haut de l&#x27;écran</li>
+<li><span class="num">3.</span>Touchez « Abonnements »</li>
+<li><span class="num">4.</span>Sélectionnez « aircal » dans la liste</li>
+<li><span class="num">5.</span>Touchez « Annuler l&#x27;abonnement »</li>
+<li><span class="num">6.</span>Suivez les instructions à l&#x27;écran</li>
+</ol>
+<p>※ Si « Annuler » n&#x27;apparaît pas, l&#x27;abonnement est probablement déjà résilié.</p>
+</section>
+<section class="legal-article">
+<h2>Comment vérifier la résiliation</h2>
+<p>Réglages &gt; Identifiant Apple &gt; Abonnements</p>
+<p>Si aircal apparaît comme « Expiré » au lieu de « Actif », la résiliation est effective.</p>
+</section>
+</div>
+<div class="platform-tab" data-platform="android">
+<div class="platform-label">Android</div>
+<section class="legal-article">
+<h2>Comment résilier l&#x27;abonnement</h2>
+<ol class="numbered">
+<li><span class="num">1.</span>Ouvrez le Google Play Store</li>
+<li><span class="num">2.</span>Touchez votre photo de profil en haut à droite</li>
+<li><span class="num">3.</span>Touchez « Paiements et abonnements »</li>
+<li><span class="num">4.</span>Touchez « Abonnements »</li>
+<li><span class="num">5.</span>Sélectionnez « aircal » dans la liste</li>
+<li><span class="num">6.</span>Touchez « Résilier l&#x27;abonnement »</li>
+<li><span class="num">7.</span>Suivez les instructions à l&#x27;écran</li>
+</ol>
+</section>
+<section class="legal-article">
+<h2>Comment vérifier la résiliation</h2>
+<p>Google Play &gt; Profil &gt; Paiements et abonnements &gt; Abonnements</p>
+<p>Si aircal n&#x27;apparaît plus dans la liste ou indique « Résilié », la résiliation est effective.</p>
+</section>
+</div>
+<section class="legal-article">
+<h2>Questions fréquentes</h2>
+<p>Q. J&#x27;ai résilié mais les fonctions payantes sont toujours disponibles</p>
+<p>Même après la résiliation, l&#x27;accès reste actif jusqu&#x27;à la prochaine date de renouvellement. Vous reviendrez à la version gratuite après cette date.</p>
+<p>Q. Je ne trouve pas de « bouton de résiliation » dans aircal</p>
+<p>Les abonnements sont gérés côté App Store / Google Play : il n&#x27;est pas possible de les résilier depuis l&#x27;application.</p>
+<p>Q. J&#x27;ai résilié mais j&#x27;ai été facturé</p>
+<p>Si la résiliation a été effectuée juste avant la date de renouvellement, une facturation peut survenir selon le moment. Vérifiez l&#x27;historique d&#x27;achat ou de facturation côté magasin par précaution.</p>
+<p>Q. Je voudrais un remboursement</p>
+<p>Les remboursements ne dépendent pas d&#x27;aircal mais des règles de l&#x27;App Store / Google Play. Faites votre demande sur la page de remboursement de chaque magasin.</p>
+</section>
+</body>
+</html>
