@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Không thể chỉnh sửa sự kiện (&quot;Bạn không có quyền&quot; / hiển thị chỉ đọc) - aircal</title>
+<style>
+:root {
+  --text: #1a1a1a;
+  --text-sub: #555;
+  --text-link: #1e6bff;
+  --bg: #ffffff;
+  --bg-card: #f7f7f8;
+  --bg-step-even: #ffffff;
+  --bg-step-odd: #f4f4f5;
+  --border: #e6e6ea;
+  --accent: #1e6bff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #ececec;
+    --text-sub: #b0b0b0;
+    --text-link: #76a8ff;
+    --bg: #121212;
+    --bg-card: #1c1c1e;
+    --bg-step-even: #1a1a1c;
+    --bg-step-odd: #1e1e22;
+    --border: #2d2d31;
+    --accent: #76a8ff;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+               "Hiragino Sans", "Yu Gothic", "Noto Sans", "Segoe UI", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.7;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+  font-size: 16px;
+}
+a { color: var(--text-link); text-decoration: underline; text-decoration-color: var(--text-link); }
+a:hover { opacity: 0.85; }
+header.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+header.top .crumb { color: var(--text-sub); font-size: 14px; }
+header.top .back { font-size: 14px; }
+h1.doctitle {
+  text-align: center;
+  font-size: 22px;
+  margin: 16px 0 24px;
+}
+h2 {
+  font-size: 18px;
+  margin: 28px 0 8px;
+}
+h3 {
+  font-size: 16px;
+  margin: 20px 0 6px;
+}
+p { margin: 6px 0; }
+section { margin-bottom: 16px; }
+.preamble { margin-bottom: 20px; }
+ol.numbered, ul.bullet { padding-left: 0; list-style: none; margin: 8px 0; }
+ol.numbered li { padding-left: 32px; position: relative; margin: 4px 0; }
+ol.numbered li .num { position: absolute; left: 8px; }
+ul.bullet li { padding-left: 24px; position: relative; margin: 4px 0; }
+ul.bullet li::before { content: "・"; position: absolute; left: 8px; }
+
+.steps {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  margin: 12px 0 4px;
+}
+.step { padding: 16px; }
+.step-even { background: var(--bg-step-even); }
+.step-odd { background: var(--bg-step-odd); }
+.step-row { display: flex; align-items: flex-start; gap: 12px; }
+.step-num {
+  flex: 0 0 24px; width: 24px; height: 24px;
+  border-radius: 50%;
+  background: rgba(120,120,120,0.12);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.step-desc { flex: 1; font-size: 15px; }
+.step-title { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+.step-desc-titled { font-size: 15px; }
+.step-img { margin-top: 12px; }
+.step-img-indent { padding-left: 36px; }
+.step-img img { width: 100%; border-radius: 12px; display: block; }
+
+.img-card { margin: 12px 0; text-align: center; }
+.img-card img { max-width: 100%; border-radius: 12px; }
+.img-card.img-tall img { max-width: 240px; }
+.img-card.img-wide img { max-width: 100%; }
+
+.external-link { margin-top: 12px; }
+
+.related { margin-top: 16px; }
+
+.platform-tab { margin: 12px 0; }
+.platform-label {
+  display: inline-block;
+  padding: 2px 10px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 12px;
+  border-radius: 999px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.toc-section { margin-bottom: 28px; }
+.toc-section h2 { margin-top: 12px; }
+.toc-list { list-style: none; padding: 0; margin: 8px 0; }
+.toc-list li { padding: 10px 0; border-bottom: 1px solid var(--border); }
+.toc-list li:last-child { border-bottom: none; }
+.toc-list a { display: block; text-decoration: none; color: var(--text); }
+.toc-list a::after { content: " ›"; color: var(--text-sub); }
+.toc-list a:hover { color: var(--text-link); }
+
+.lang-list { list-style: none; padding: 0; column-count: 2; column-gap: 24px; }
+.lang-list li { padding: 6px 0; }
+@media (min-width: 600px) {
+  .lang-list { column-count: 3; }
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <span class="crumb">Câu hỏi thường gặp (FAQ)</span>
+  <a class="back" href="../../">Câu hỏi thường gặp (FAQ)</a>
+</header>
+<h1 class="doctitle">Không thể chỉnh sửa sự kiện (&quot;Bạn không có quyền&quot; / hiển thị chỉ đọc)</h1>
+<div class="preamble"><p>Khi bạn thấy
+
+&quot;Lịch này chỉ đọc. Để chỉnh sửa, vui lòng hỏi quản trị viên.&quot;
+
+trên màn hình chỉnh sửa sự kiện, có nghĩa là sự kiện được chia sẻ qua Google Calendar và bạn không có quyền chỉnh sửa.
+
+Trong trường hợp này, bạn không thể chỉnh sửa hoặc lưu sự kiện từ aircal.</p></div>
+<section class="legal-article">
+<h2>Về hành vi này (quan trọng)</h2>
+<p>aircal tích hợp với Google Calendar để hiển thị và chỉnh sửa sự kiện.</p>
+<p>Vì vậy, việc một sự kiện có thể chỉnh sửa hay không phụ thuộc vào cài đặt chia sẻ phía Google Calendar.</p>
+<p>Đây không phải là hệ thống quyền của aircal: nếu lịch được chia sẻ với bạn ở chế độ &quot;chỉ xem&quot; trên Google Calendar, bạn không thể chỉnh sửa.</p>
+</section>
+<section class="legal-article">
+<h2>Nguyên nhân thường gặp (Google Calendar)</h2>
+<ul class="bullet">
+<li>Google Calendar được chia sẻ với bạn ở chế độ &quot;chỉ xem&quot;</li>
+<li>Quản trị viên lịch chưa cấp cho bạn quyền chỉnh sửa</li>
+</ul>
+</section>
+<section class="legal-article">
+<h2>Cách khắc phục</h2>
+<p>1) Yêu cầu quản trị viên Google Calendar cấp quyền chỉnh sửa cho bạn</p>
+<p>Vui lòng yêu cầu quản trị viên Google Calendar đổi quyền của bạn sang &quot;Thực hiện thay đổi đối với sự kiện&quot; hoặc &quot;Thực hiện thay đổi và quản lý việc chia sẻ&quot;.</p>
+</section>
+<section class="legal-article">
+<h2>Câu hỏi thường gặp (FAQ)</h2>
+<p>H. Đây có phải là lỗi của aircal không?</p>
+<p>Không. Đây là giới hạn dựa trên cài đặt chia sẻ / quyền của Google Calendar.</p>
+<p>H. Tại sao tôi không thể lưu các thay đổi?</p>
+<p>Bạn có quyền &quot;chỉ xem&quot; trên Google Calendar, nên bạn không thể chỉnh sửa sự kiện.</p>
+<p>H. Tôi có thể đổi quyền ở đâu?</p>
+<p>Cài đặt chia sẻ của Google Calendar chỉ có thể được thay đổi bởi quản trị viên.</p>
+</section>
+</body>
+</html>

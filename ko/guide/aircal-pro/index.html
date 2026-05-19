@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>aircal Pro - aircal</title>
+<style>
+:root {
+  --text: #1a1a1a;
+  --text-sub: #555;
+  --text-link: #1e6bff;
+  --bg: #ffffff;
+  --bg-card: #f7f7f8;
+  --bg-step-even: #ffffff;
+  --bg-step-odd: #f4f4f5;
+  --border: #e6e6ea;
+  --accent: #1e6bff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #ececec;
+    --text-sub: #b0b0b0;
+    --text-link: #76a8ff;
+    --bg: #121212;
+    --bg-card: #1c1c1e;
+    --bg-step-even: #1a1a1c;
+    --bg-step-odd: #1e1e22;
+    --border: #2d2d31;
+    --accent: #76a8ff;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+               "Hiragino Sans", "Yu Gothic", "Noto Sans", "Segoe UI", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.7;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+  font-size: 16px;
+}
+a { color: var(--text-link); text-decoration: underline; text-decoration-color: var(--text-link); }
+a:hover { opacity: 0.85; }
+header.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+header.top .crumb { color: var(--text-sub); font-size: 14px; }
+header.top .back { font-size: 14px; }
+h1.doctitle {
+  text-align: center;
+  font-size: 22px;
+  margin: 16px 0 24px;
+}
+h2 {
+  font-size: 18px;
+  margin: 28px 0 8px;
+}
+h3 {
+  font-size: 16px;
+  margin: 20px 0 6px;
+}
+p { margin: 6px 0; }
+section { margin-bottom: 16px; }
+.preamble { margin-bottom: 20px; }
+ol.numbered, ul.bullet { padding-left: 0; list-style: none; margin: 8px 0; }
+ol.numbered li { padding-left: 32px; position: relative; margin: 4px 0; }
+ol.numbered li .num { position: absolute; left: 8px; }
+ul.bullet li { padding-left: 24px; position: relative; margin: 4px 0; }
+ul.bullet li::before { content: "・"; position: absolute; left: 8px; }
+
+.steps {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  margin: 12px 0 4px;
+}
+.step { padding: 16px; }
+.step-even { background: var(--bg-step-even); }
+.step-odd { background: var(--bg-step-odd); }
+.step-row { display: flex; align-items: flex-start; gap: 12px; }
+.step-num {
+  flex: 0 0 24px; width: 24px; height: 24px;
+  border-radius: 50%;
+  background: rgba(120,120,120,0.12);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.step-desc { flex: 1; font-size: 15px; }
+.step-title { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+.step-desc-titled { font-size: 15px; }
+.step-img { margin-top: 12px; }
+.step-img-indent { padding-left: 36px; }
+.step-img img { width: 100%; border-radius: 12px; display: block; }
+
+.img-card { margin: 12px 0; text-align: center; }
+.img-card img { max-width: 100%; border-radius: 12px; }
+.img-card.img-tall img { max-width: 240px; }
+.img-card.img-wide img { max-width: 100%; }
+
+.external-link { margin-top: 12px; }
+
+.related { margin-top: 16px; }
+
+.platform-tab { margin: 12px 0; }
+.platform-label {
+  display: inline-block;
+  padding: 2px 10px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 12px;
+  border-radius: 999px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.toc-section { margin-bottom: 28px; }
+.toc-section h2 { margin-top: 12px; }
+.toc-list { list-style: none; padding: 0; margin: 8px 0; }
+.toc-list li { padding: 10px 0; border-bottom: 1px solid var(--border); }
+.toc-list li:last-child { border-bottom: none; }
+.toc-list a { display: block; text-decoration: none; color: var(--text); }
+.toc-list a::after { content: " ›"; color: var(--text-sub); }
+.toc-list a:hover { color: var(--text-link); }
+
+.lang-list { list-style: none; padding: 0; column-count: 2; column-gap: 24px; }
+.lang-list li { padding: 6px 0; }
+@media (min-width: 600px) {
+  .lang-list { column-count: 3; }
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <span class="crumb">사용 가이드</span>
+  <a class="back" href="../../">사용 가이드</a>
+</header>
+<h1 class="doctitle">aircal Pro</h1>
+<section class="legal-article">
+<h2>aircal Pro란?</h2>
+<p>aircal 앱 내 광고를 모두 제거하고 기능 제한을 해제하기 위한 인앱 결제를 통한 업그레이드입니다.</p>
+<p>aircal Pro에서 다음 기능을 이용할 수 있게 됩니다.</p>
+<ul class="bullet">
+<li>광고 숨김</li>
+<li>음성 AI 입력 제한 없음</li>
+<li>컬러 테마 모두 사용</li>
+<li>위젯 모두 사용</li>
+<li>폰트 모두 사용</li>
+<li>앱 아이콘 모두 사용</li>
+<li>일정 검색</li>
+<li>일정 템플릿 사용</li>
+<li>주차 번호 표시</li>
+<li>길게 눌러 색상 변경</li>
+</ul>
+<p>* 일부 기능은 개발 중이며 순차적으로 제공될 예정입니다.</p>
+</section>
+<section class="legal-article">
+<h2>aircal Pro 비용에 관하여</h2>
+<p>aircal Pro는 평생 이용권과 구독형으로 제공됩니다.</p>
+<p>구매 가격은 아래 순서로 구매 화면에서 확인해 주세요.</p>
+<p>aircal Pro 구매 순서</p>
+<ol class="numbered">
+<li><span class="num">1.</span>aircal 앱 열기</li>
+<li><span class="num">2.</span>오른쪽 위의 &#x27;설정&#x27; 아이콘을 탭</li>
+<li><span class="num">3.</span>&#x27;Pro로 업그레이드&#x27;를 탭</li>
+<li><span class="num">4.</span>aircal Pro 구매</li>
+</ol>
+</section>
+<section class="legal-article">
+<h2>aircal Pro를 다른 기기로 이전하고 싶어요 (구매 복원)</h2>
+<p>기기 변경 등을 했을 때도 아래 순서로 구매 상태를 복원할 수 있습니다.</p>
+<ol class="numbered">
+<li><span class="num">1.</span>aircal 앱 열기</li>
+<li><span class="num">2.</span>오른쪽 위의 &#x27;설정&#x27; 아이콘을 탭</li>
+<li><span class="num">3.</span>&#x27;Pro로 업그레이드&#x27;를 탭</li>
+<li><span class="num">4.</span>화면 하단의 &#x27;구매 복원하기&#x27;를 탭</li>
+</ol>
+</section>
+<div class="platform-tab" data-platform="ios">
+<div class="platform-label">iOS</div>
+<section class="legal-article">
+<h2>구매가 반영되지 않아요</h2>
+<ul class="bullet">
+<li>통신 환경이 양호한 곳에서 인터넷에 연결되어 있는지 확인해 주세요.</li>
+<li>구매 시와 같은 Apple ID로 기기에 로그인되어 있는지 확인해 주세요.</li>
+<li>그래도 해결되지 않으면 Apple 지원 창구로 문의해 주세요.</li>
+</ul>
+</section>
+</div>
+<div class="platform-tab" data-platform="android">
+<div class="platform-label">Android</div>
+<section class="legal-article">
+<h2>구매가 반영되지 않아요</h2>
+<ul class="bullet">
+<li>통신 환경이 양호한 곳에서 인터넷에 연결되어 있는지 확인해 주세요.</li>
+<li>구매 시와 같은 Google 계정으로 기기에 로그인되어 있는지 확인해 주세요.</li>
+<li>그래도 해결되지 않으면 Google Play 지원으로 문의해 주세요.</li>
+</ul>
+</section>
+</div>
+<section class="legal-article">
+<h2>aircal Pro 구매를 취소하고 싶어요</h2>
+<p>평생 이용권은 상품의 성질상 구매 후의 환불·취소는 받지 않습니다.</p>
+</section>
+<p class="related">aircal Pro의 월간 요금제를 해지하고 싶어요: <a href="../../faq/cancel-subscription/">여기</a></p>
+</body>
+</html>

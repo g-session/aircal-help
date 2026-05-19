@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>aircal（エアカル）月額プランの解約方法 - aircal</title>
+<style>
+:root {
+  --text: #1a1a1a;
+  --text-sub: #555;
+  --text-link: #1e6bff;
+  --bg: #ffffff;
+  --bg-card: #f7f7f8;
+  --bg-step-even: #ffffff;
+  --bg-step-odd: #f4f4f5;
+  --border: #e6e6ea;
+  --accent: #1e6bff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #ececec;
+    --text-sub: #b0b0b0;
+    --text-link: #76a8ff;
+    --bg: #121212;
+    --bg-card: #1c1c1e;
+    --bg-step-even: #1a1a1c;
+    --bg-step-odd: #1e1e22;
+    --border: #2d2d31;
+    --accent: #76a8ff;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+               "Hiragino Sans", "Yu Gothic", "Noto Sans", "Segoe UI", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.7;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+  font-size: 16px;
+}
+a { color: var(--text-link); text-decoration: underline; text-decoration-color: var(--text-link); }
+a:hover { opacity: 0.85; }
+header.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+header.top .crumb { color: var(--text-sub); font-size: 14px; }
+header.top .back { font-size: 14px; }
+h1.doctitle {
+  text-align: center;
+  font-size: 22px;
+  margin: 16px 0 24px;
+}
+h2 {
+  font-size: 18px;
+  margin: 28px 0 8px;
+}
+h3 {
+  font-size: 16px;
+  margin: 20px 0 6px;
+}
+p { margin: 6px 0; }
+section { margin-bottom: 16px; }
+.preamble { margin-bottom: 20px; }
+ol.numbered, ul.bullet { padding-left: 0; list-style: none; margin: 8px 0; }
+ol.numbered li { padding-left: 32px; position: relative; margin: 4px 0; }
+ol.numbered li .num { position: absolute; left: 8px; }
+ul.bullet li { padding-left: 24px; position: relative; margin: 4px 0; }
+ul.bullet li::before { content: "・"; position: absolute; left: 8px; }
+
+.steps {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  margin: 12px 0 4px;
+}
+.step { padding: 16px; }
+.step-even { background: var(--bg-step-even); }
+.step-odd { background: var(--bg-step-odd); }
+.step-row { display: flex; align-items: flex-start; gap: 12px; }
+.step-num {
+  flex: 0 0 24px; width: 24px; height: 24px;
+  border-radius: 50%;
+  background: rgba(120,120,120,0.12);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.step-desc { flex: 1; font-size: 15px; }
+.step-title { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+.step-desc-titled { font-size: 15px; }
+.step-img { margin-top: 12px; }
+.step-img-indent { padding-left: 36px; }
+.step-img img { width: 100%; border-radius: 12px; display: block; }
+
+.img-card { margin: 12px 0; text-align: center; }
+.img-card img { max-width: 100%; border-radius: 12px; }
+.img-card.img-tall img { max-width: 240px; }
+.img-card.img-wide img { max-width: 100%; }
+
+.external-link { margin-top: 12px; }
+
+.related { margin-top: 16px; }
+
+.platform-tab { margin: 12px 0; }
+.platform-label {
+  display: inline-block;
+  padding: 2px 10px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 12px;
+  border-radius: 999px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.toc-section { margin-bottom: 28px; }
+.toc-section h2 { margin-top: 12px; }
+.toc-list { list-style: none; padding: 0; margin: 8px 0; }
+.toc-list li { padding: 10px 0; border-bottom: 1px solid var(--border); }
+.toc-list li:last-child { border-bottom: none; }
+.toc-list a { display: block; text-decoration: none; color: var(--text); }
+.toc-list a::after { content: " ›"; color: var(--text-sub); }
+.toc-list a:hover { color: var(--text-link); }
+
+.lang-list { list-style: none; padding: 0; column-count: 2; column-gap: 24px; }
+.lang-list li { padding: 6px 0; }
+@media (min-width: 600px) {
+  .lang-list { column-count: 3; }
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <span class="crumb">よくある質問（FAQ）</span>
+  <a class="back" href="../../">よくある質問（FAQ）</a>
+</header>
+<h1 class="doctitle">aircal（エアカル）月額プランの解約方法</h1>
+<section class="legal-article">
+<h2>月額プラン（aircal Pro）について</h2>
+<p>aircalの月額プラン（aircal Pro）は、App Store / Google Playのサブスクリプション（定期購入）として提供されています。</p>
+<p>そのため、aircalアプリ内ではなく、各ストアの「サブスクリプション管理」から解約します。</p>
+</section>
+<section class="legal-article">
+<h2>解約前に確認すること</h2>
+<ul class="bullet">
+<li>解約しても、次回更新日までは有料機能を利用できます（即時停止ではありません）</li>
+<li>解約後もアプリ自体は引き続き利用できます（無料版の機能に戻ります）</li>
+<li>アカウント削除（退会）をしても、サブスクリプションは自動で解約されません。必ずストア側で解約してください。</li>
+</ul>
+</section>
+<div class="platform-tab" data-platform="ios">
+<div class="platform-label">iOS</div>
+<section class="legal-article">
+<h2>月額プランの解約方法</h2>
+<ol class="numbered">
+<li><span class="num">1.</span>設定アプリを開く</li>
+<li><span class="num">2.</span>画面上部の Apple ID（自分の名前）をタップ</li>
+<li><span class="num">3.</span>「サブスクリプション」をタップ</li>
+<li><span class="num">4.</span>一覧から「aircal」を選択</li>
+<li><span class="num">5.</span>「サブスクリプションをキャンセルする」をタップ</li>
+<li><span class="num">6.</span>画面の案内に従って完了</li>
+</ol>
+<p>※「キャンセル」が表示されない場合、すでに解約済みの可能性があります。</p>
+</section>
+<section class="legal-article">
+<h2>解約できているか確認する方法</h2>
+<p>設定 ＞ Apple ID ＞ サブスクリプション</p>
+<p>aircalが「有効」ではなく「期限切れ」になっていれば解約完了です。</p>
+</section>
+</div>
+<div class="platform-tab" data-platform="android">
+<div class="platform-label">Android</div>
+<section class="legal-article">
+<h2>月額プランの解約方法</h2>
+<ol class="numbered">
+<li><span class="num">1.</span>Google Playストアを開く</li>
+<li><span class="num">2.</span>右上のプロフィールアイコンをタップ</li>
+<li><span class="num">3.</span>「お支払いと定期購入」をタップ</li>
+<li><span class="num">4.</span>「定期購入」をタップ</li>
+<li><span class="num">5.</span>一覧から「aircal」を選択</li>
+<li><span class="num">6.</span>「定期購入を解約」をタップ</li>
+<li><span class="num">7.</span>画面の案内に従って完了</li>
+</ol>
+</section>
+<section class="legal-article">
+<h2>解約できているか確認する方法</h2>
+<p>Google Play ＞ プロフィール ＞ お支払いと定期購入 ＞ 定期購入</p>
+<p>aircalが一覧に表示されない、または「解約済み」表示なら解約完了です。</p>
+</section>
+</div>
+<section class="legal-article">
+<h2>よくある質問</h2>
+<p>Q. 解約したのに有料機能が使えます</p>
+<p>解約しても、次回更新日までは利用可能です。更新日を過ぎると無料版に戻ります。</p>
+<p>Q. aircalアプリ内に「解約ボタン」が見つかりません</p>
+<p>サブスクリプションはApp Store / Google Play側で管理されるため、アプリ内からは解約できません。</p>
+<p>Q. 解約したのに請求が来ました</p>
+<p>更新日の直前に解約した場合、タイミングによっては請求が発生することがあります。念のため、ストア側の購入履歴・請求履歴をご確認ください。</p>
+<p>Q. 返金してほしいです</p>
+<p>返金はaircalではなく、App Store / Google Playの規定に従って手続きします。各ストアの返金申請ページから申請してください。</p>
+</section>
+</body>
+</html>

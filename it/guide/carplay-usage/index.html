@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guida all&#x27;uso di CarPlay - aircal</title>
+<style>
+:root {
+  --text: #1a1a1a;
+  --text-sub: #555;
+  --text-link: #1e6bff;
+  --bg: #ffffff;
+  --bg-card: #f7f7f8;
+  --bg-step-even: #ffffff;
+  --bg-step-odd: #f4f4f5;
+  --border: #e6e6ea;
+  --accent: #1e6bff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #ececec;
+    --text-sub: #b0b0b0;
+    --text-link: #76a8ff;
+    --bg: #121212;
+    --bg-card: #1c1c1e;
+    --bg-step-even: #1a1a1c;
+    --bg-step-odd: #1e1e22;
+    --border: #2d2d31;
+    --accent: #76a8ff;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+               "Hiragino Sans", "Yu Gothic", "Noto Sans", "Segoe UI", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.7;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+  font-size: 16px;
+}
+a { color: var(--text-link); text-decoration: underline; text-decoration-color: var(--text-link); }
+a:hover { opacity: 0.85; }
+header.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+header.top .crumb { color: var(--text-sub); font-size: 14px; }
+header.top .back { font-size: 14px; }
+h1.doctitle {
+  text-align: center;
+  font-size: 22px;
+  margin: 16px 0 24px;
+}
+h2 {
+  font-size: 18px;
+  margin: 28px 0 8px;
+}
+h3 {
+  font-size: 16px;
+  margin: 20px 0 6px;
+}
+p { margin: 6px 0; }
+section { margin-bottom: 16px; }
+.preamble { margin-bottom: 20px; }
+ol.numbered, ul.bullet { padding-left: 0; list-style: none; margin: 8px 0; }
+ol.numbered li { padding-left: 32px; position: relative; margin: 4px 0; }
+ol.numbered li .num { position: absolute; left: 8px; }
+ul.bullet li { padding-left: 24px; position: relative; margin: 4px 0; }
+ul.bullet li::before { content: "・"; position: absolute; left: 8px; }
+
+.steps {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  margin: 12px 0 4px;
+}
+.step { padding: 16px; }
+.step-even { background: var(--bg-step-even); }
+.step-odd { background: var(--bg-step-odd); }
+.step-row { display: flex; align-items: flex-start; gap: 12px; }
+.step-num {
+  flex: 0 0 24px; width: 24px; height: 24px;
+  border-radius: 50%;
+  background: rgba(120,120,120,0.12);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.step-desc { flex: 1; font-size: 15px; }
+.step-title { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+.step-desc-titled { font-size: 15px; }
+.step-img { margin-top: 12px; }
+.step-img-indent { padding-left: 36px; }
+.step-img img { width: 100%; border-radius: 12px; display: block; }
+
+.img-card { margin: 12px 0; text-align: center; }
+.img-card img { max-width: 100%; border-radius: 12px; }
+.img-card.img-tall img { max-width: 240px; }
+.img-card.img-wide img { max-width: 100%; }
+
+.external-link { margin-top: 12px; }
+
+.related { margin-top: 16px; }
+
+.platform-tab { margin: 12px 0; }
+.platform-label {
+  display: inline-block;
+  padding: 2px 10px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 12px;
+  border-radius: 999px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.toc-section { margin-bottom: 28px; }
+.toc-section h2 { margin-top: 12px; }
+.toc-list { list-style: none; padding: 0; margin: 8px 0; }
+.toc-list li { padding: 10px 0; border-bottom: 1px solid var(--border); }
+.toc-list li:last-child { border-bottom: none; }
+.toc-list a { display: block; text-decoration: none; color: var(--text); }
+.toc-list a::after { content: " ›"; color: var(--text-sub); }
+.toc-list a:hover { color: var(--text-link); }
+
+.lang-list { list-style: none; padding: 0; column-count: 2; column-gap: 24px; }
+.lang-list li { padding: 6px 0; }
+@media (min-width: 600px) {
+  .lang-list { column-count: 3; }
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <span class="crumb">Guida utente</span>
+  <a class="back" href="../../">Guida utente</a>
+</header>
+<h1 class="doctitle">Guida all&#x27;uso di CarPlay</h1>
+<p>aircal supporta CarPlay, così puoi consultare la tua agenda a colpo d&#x27;occhio mentre sei in auto.</p>
+<div class="img-card img-wide"><img src="https://cdn.jsdelivr.net/gh/g-session/aircal-help@main/images/carplay/01_event_list_v2.png" alt="" loading="lazy"></div>
+<section class="paragraph-section">
+<h2>Visualizzare gli eventi</h2>
+<p>Gli eventi di oggi e dei prossimi giorni sono visibili a colpo d&#x27;occhio. Sia gli eventi giornalieri sia gli eventi con orario compaiono sullo schermo CarPlay.</p>
+</section>
+<section class="paragraph-section">
+<h2>Tocca un luogo per aprire l&#x27;app delle mappe</h2>
+<p>Quando un evento ha una posizione impostata, toccalo in CarPlay per aprire la tua app delle mappe e ottenere le indicazioni stradali. Puoi passare tra Apple Mappe e Google Maps in Impostazioni CarPlay.</p>
+</section>
+<section class="paragraph-section">
+<h2>Connessione a CarPlay</h2>
+<p>Per collegare l&#x27;iPhone al veicolo e usare CarPlay, consulta l&#x27;articolo ufficiale del supporto Apple.</p>
+</section>
+<p class="external-link"><a href="https://support.apple.com/it-it/104976" target="_blank" rel="noopener noreferrer">Visualizza l&#x27;articolo ufficiale del Supporto Apple</a></p>
+</body>
+</html>
