@@ -6,6 +6,7 @@
       "category": "news",
       "publishedAt": "2026-06-22",
       "pinned": true,
+      "isTest": true,
       "title": {
         "ja": "いつも aircal をご利用いただきありがとうございます",
         "en": "Thank you for using aircal"
@@ -13,6 +14,23 @@
       "body": {
         "ja": "いつも aircal をご利用いただきありがとうございます。\n\nこのお知らせ欄では、新機能やアップデート、メンテナンス情報などをお届けしていきます。今後ともどうぞよろしくお願いいたします。",
         "en": "Thank you for always using aircal.\n\nThis announcements section will keep you posted on new features, updates, and maintenance information. We appreciate your continued support."
+      }
+    },
+    {
+      "id": "2026-06-22-announcement-test-ios-build-513",
+      "category": "update",
+      "publishedAt": "2026-06-22",
+      "pinned": false,
+      "isTest": true,
+      "platform": "ios",
+      "maxBuildNumber": 513,
+      "title": {
+        "ja": "iOS / build 513 以下向けテスト",
+        "en": "Test for iOS build 513 or earlier"
+      },
+      "body": {
+        "ja": "platform と maxBuildNumber の出し分け確認用です。iOS かつ build 513 以下の開発者アカウントでのみ表示されます。",
+        "en": "This verifies platform and maxBuildNumber targeting. It is shown only to developer accounts on iOS build 513 or earlier."
       }
     }
   ]
