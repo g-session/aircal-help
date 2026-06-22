@@ -32,6 +32,29 @@
         "ja": "platform と maxBuildNumber の出し分け確認用です。iOS かつ build 513 以下の開発者アカウントでのみ表示されます。",
         "en": "This verifies platform and maxBuildNumber targeting. It is shown only to developer accounts on iOS build 513 or earlier."
       }
+    },
+    {
+      "id": "2026-06-22-announcement-test-open-link",
+      "category": "request",
+      "publishedAt": "2026-06-22",
+      "pinned": false,
+      "isTest": true,
+      "title": {
+        "ja": "外部リンク直接起動テスト",
+        "en": "Direct external link test"
+      },
+      "body": {
+        "ja": "一覧でこのお知らせをタップすると、詳細画面ではなく外部ブラウザでヘルプページを開く確認用です。",
+        "en": "Tap this announcement in the list to verify that it opens the help page in an external browser instead of the detail screen."
+      },
+      "link": {
+        "title": {
+          "ja": "ヘルプページを開く",
+          "en": "Open help page"
+        },
+        "url": "https://g-session.github.io/aircal-help/ja/"
+      },
+      "openLinkOnTap": true
     }
   ]
 }
