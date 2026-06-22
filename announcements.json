@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "announcements": [
+    {
+      "id": "welcome-thanks",
+      "category": "news",
+      "publishedAt": "2026-06-22",
+      "pinned": true,
+      "title": {
+        "ja": "いつも aircal をご利用いただきありがとうございます",
+        "en": "Thank you for using aircal"
+      },
+      "body": {
+        "ja": "いつも aircal をご利用いただきありがとうございます。\n\nこのお知らせ欄では、新機能やアップデート、メンテナンス情報などをお届けしていきます。今後ともどうぞよろしくお願いいたします。",
+        "en": "Thank you for always using aircal.\n\nThis announcements section will keep you posted on new features, updates, and maintenance information. We appreciate your continued support."
+      }
+    }
+  ]
+}
