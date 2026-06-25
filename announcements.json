@@ -2,54 +2,90 @@
   "schemaVersion": 1,
   "announcements": [
     {
-      "id": "welcome-thanks",
-      "publishedAt": "2026-06-22",
-      "pinned": true,
-      "isTest": true,
-      "title": {
-        "ja": "いつも aircal をご利用いただきありがとうございます",
-        "en": "Thank you for using aircal"
-      },
-      "body": {
-        "ja": "いつも aircal をご利用いただきありがとうございます。\n\nこのお知らせ欄では、新機能やアップデート、メンテナンス情報などをお届けしていきます。今後ともどうぞよろしくお願いいたします。",
-        "en": "Thank you for always using aircal.\n\nThis announcements section will keep you posted on new features, updates, and maintenance information. We appreciate your continued support."
-      }
-    },
-    {
-      "id": "2026-06-22-announcement-test-ios-build-513",
-      "publishedAt": "2026-06-22",
-      "pinned": false,
+      "id": "2026-06-25-update-ios",
+      "publishedAt": "2026-06-25",
       "isTest": true,
       "platform": "ios",
-      "maxBuildNumber": 513,
       "title": {
-        "ja": "iOS / build 513 以下向けテスト",
-        "en": "Test for iOS build 513 or earlier"
+        "ja": "アップデートしてください",
+        "en": "Please update the app"
       },
       "body": {
-        "ja": "platform と maxBuildNumber の出し分け確認用です。iOS かつ build 513 以下の開発者アカウントでのみ表示されます。",
-        "en": "This verifies platform and maxBuildNumber targeting. It is shown only to developer accounts on iOS build 513 or earlier."
-      }
-    },
-    {
-      "id": "2026-06-22-announcement-test-open-link",
-      "publishedAt": "2026-06-22",
-      "pinned": false,
-      "isTest": true,
-      "title": {
-        "ja": "外部リンク直接起動テスト",
-        "en": "Direct external link test"
-      },
-      "body": {
-        "ja": "一覧でこのお知らせをタップすると、詳細画面ではなく外部ブラウザでヘルプページを開く確認用です。",
-        "en": "Tap this announcement in the list to verify that it opens the help page in an external browser instead of the detail screen."
+        "ja": "App Store から最新バージョンにアップデートしてください。",
+        "en": "Please update to the latest version from the App Store."
       },
       "link": {
         "title": {
-          "ja": "ヘルプページを開く",
-          "en": "Open help page"
+          "ja": "App Store を開く",
+          "en": "Open App Store"
         },
-        "url": "https://g-session.github.io/aircal-help/ja/"
+        "url": "https://apps.apple.com/app/id6746650150"
+      },
+      "openLinkOnTap": true
+    },
+    {
+      "id": "2026-06-25-review-ios",
+      "publishedAt": "2026-06-25",
+      "isTest": true,
+      "platform": "ios",
+      "title": {
+        "ja": "気に入ってくださったらぜひレビューよろしくお願いします！",
+        "en": "Please leave a review if you enjoy the app!"
+      },
+      "body": {
+        "ja": "aircal を気に入っていただけましたら、ぜひ App Store でレビューをお願いいたします。",
+        "en": "If you enjoy aircal, please consider leaving a review on the App Store."
+      },
+      "link": {
+        "title": {
+          "ja": "App Store でレビューする",
+          "en": "Review on App Store"
+        },
+        "url": "https://apps.apple.com/app/id6746650150?action=write-review"
+      },
+      "openLinkOnTap": true
+    },
+    {
+      "id": "2026-06-25-update-android",
+      "publishedAt": "2026-06-25",
+      "isTest": true,
+      "platform": "android",
+      "title": {
+        "ja": "アップデートしてください",
+        "en": "Please update the app"
+      },
+      "body": {
+        "ja": "Google Play から最新バージョンにアップデートしてください。",
+        "en": "Please update to the latest version from Google Play."
+      },
+      "link": {
+        "title": {
+          "ja": "Google Play を開く",
+          "en": "Open Google Play"
+        },
+        "url": "https://play.google.com/store/apps/details?id=net.nexus_inc.calendar"
+      },
+      "openLinkOnTap": true
+    },
+    {
+      "id": "2026-06-25-review-android",
+      "publishedAt": "2026-06-25",
+      "isTest": true,
+      "platform": "android",
+      "title": {
+        "ja": "気に入ってくださったらぜひレビューよろしくお願いします！",
+        "en": "Please leave a review if you enjoy the app!"
+      },
+      "body": {
+        "ja": "aircal を気に入っていただけましたら、ぜひ Google Play でレビューをお願いいたします。",
+        "en": "If you enjoy aircal, please consider leaving a review on Google Play."
+      },
+      "link": {
+        "title": {
+          "ja": "Google Play でレビューする",
+          "en": "Review on Google Play"
+        },
+        "url": "https://play.google.com/store/apps/details?id=net.nexus_inc.calendar"
       },
       "openLinkOnTap": true
     }
