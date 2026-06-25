@@ -3,7 +3,6 @@
   "announcements": [
     {
       "id": "welcome-thanks",
-      "category": "news",
       "publishedAt": "2026-06-22",
       "pinned": true,
       "isTest": true,
@@ -18,7 +17,6 @@
     },
     {
       "id": "2026-06-22-announcement-test-ios-build-513",
-      "category": "update",
       "publishedAt": "2026-06-22",
       "pinned": false,
       "isTest": true,
@@ -35,7 +33,6 @@
     },
     {
       "id": "2026-06-22-announcement-test-open-link",
-      "category": "request",
       "publishedAt": "2026-06-22",
       "pinned": false,
       "isTest": true,
