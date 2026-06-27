@@ -4,15 +4,15 @@
     {
       "id": "2026-06-25-update-ios",
       "publishedAt": "2026-06-25",
-      "isTest": true,
       "platform": "ios",
+      "maxBuildNumber": 511,
       "title": {
-        "ja": "アップデートしてください",
-        "en": "Please update the app"
+        "ja": "新しい aircal をお届けします 🎉",
+        "en": "The new aircal is here 🎉"
       },
       "body": {
-        "ja": "App Store から最新バージョンにアップデートしてください。",
-        "en": "Please update to the latest version from the App Store."
+        "ja": "使い心地を改善した新しいバージョンを公開しました。よろしければ App Store から最新版にアップデートしてお試しください。",
+        "en": "We've released a new version with improvements. Update to the latest version from the App Store whenever you like."
       },
       "link": {
         "title": {
@@ -26,15 +26,14 @@
     {
       "id": "2026-06-25-review-ios",
       "publishedAt": "2026-06-25",
-      "isTest": true,
       "platform": "ios",
       "title": {
         "ja": "気に入ってくださったらぜひレビューよろしくお願いします！",
         "en": "Please leave a review if you enjoy the app!"
       },
       "body": {
-        "ja": "aircal を気に入っていただけましたら、ぜひ App Store でレビューをお願いいたします。",
-        "en": "If you enjoy aircal, please consider leaving a review on the App Store."
+        "ja": "aircal はお役に立っていますか？😊 もし気に入っていただけたら、★5 のレビューで教えてください。みなさんの声が、より良いアプリづくりの原動力です！",
+        "en": "Is aircal helping you out? 😊 If you enjoy it, let us know with a 5-star review. Your voice is what drives us to make the app even better!"
       },
       "link": {
         "title": {
@@ -48,15 +47,15 @@
     {
       "id": "2026-06-25-update-android",
       "publishedAt": "2026-06-25",
-      "isTest": true,
       "platform": "android",
+      "maxBuildNumber": 511,
       "title": {
-        "ja": "アップデートしてください",
-        "en": "Please update the app"
+        "ja": "新しい aircal をお届けします 🎉",
+        "en": "The new aircal is here 🎉"
       },
       "body": {
-        "ja": "Google Play から最新バージョンにアップデートしてください。",
-        "en": "Please update to the latest version from Google Play."
+        "ja": "使い心地を改善した新しいバージョンを公開しました。よろしければ Google Play から最新版にアップデートしてお試しください。",
+        "en": "We've released a new version with improvements. Update to the latest version from Google Play whenever you like."
       },
       "link": {
         "title": {
@@ -70,15 +69,14 @@
     {
       "id": "2026-06-25-review-android",
       "publishedAt": "2026-06-25",
-      "isTest": true,
       "platform": "android",
       "title": {
         "ja": "気に入ってくださったらぜひレビューよろしくお願いします！",
         "en": "Please leave a review if you enjoy the app!"
       },
       "body": {
-        "ja": "aircal を気に入っていただけましたら、ぜひ Google Play でレビューをお願いいたします。",
-        "en": "If you enjoy aircal, please consider leaving a review on Google Play."
+        "ja": "aircal はお役に立っていますか？😊 もし気に入っていただけたら、★5 のレビューで教えてください。みなさんの声が、より良いアプリづくりの原動力です！",
+        "en": "Is aircal helping you out? 😊 If you enjoy it, let us know with a 5-star review. Your voice is what drives us to make the app even better!"
       },
       "link": {
         "title": {
