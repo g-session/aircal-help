@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "sales": [
+    {
+      "id": "test_weekend_20260806",
+      "tag": "weekend_sale",
+      "startAt": "2026-08-05T15:00:00Z",
+      "endAt": "2026-08-08T15:00:00Z",
+      "isTest": true
+    }
+  ]
+}
