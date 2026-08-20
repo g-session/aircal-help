@@ -86,6 +86,20 @@
         "url": "https://play.google.com/store/apps/details?id=net.nexus_inc.calendar"
       },
       "openLinkOnTap": true
+    },
+    {
+      "id": "2026-08-20-issue-1132",
+      "publishedAt": "2026-08-20",
+      "isTest": true,
+      "minBuildNumber": 602,
+      "title": {
+        "ja": "todo機能をリリースしました",
+        "en": "The to-do feature is now available"
+      },
+      "body": {
+        "ja": "予定登録ページからto doとして登録ボタンを押すことでtodo登録が可能になりました\ntodo専用のウィジェットも追加しております（Pro機能）",
+        "en": "You can now create a to-do by tapping \"Register as to-do\" on the event creation page.\nA dedicated to-do widget has also been added (Pro feature)."
+      }
     }
   ]
 }
