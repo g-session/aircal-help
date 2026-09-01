@@ -93,11 +93,11 @@
       "isTest": true,
       "minBuildNumber": 602,
       "title": {
-        "ja": "todo機能をリリースしました",
+        "ja": "Todo機能をリリースしました",
         "en": "The to-do feature is now available"
       },
       "body": {
-        "ja": "予定登録ページからto doとして登録ボタンを押すことでtodo登録が可能になりました\ntodo専用のウィジェットも追加しております（Pro機能）",
+        "ja": "予定登録ページからTodoとして登録ボタンを押すことでTodo登録が可能になりました\nTodo専用のウィジェットも追加しております（Pro機能）",
         "en": "You can now create a to-do by tapping \"Register as to-do\" on the event creation page.\nA dedicated to-do widget has also been added (Pro feature)."
       }
     }
