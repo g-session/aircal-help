@@ -99,6 +99,17 @@
         "ja": "予定登録ページからTodoとして登録ボタンを押すことでTodo登録が可能になりました\nTodo専用のウィジェットも追加しております（Pro機能）",
         "en": "You can now create a to-do by tapping \"Register as to-do\" on the event creation page.\nA dedicated to-do widget has also been added (Pro feature)."
       }
+    },
+    {
+      "id": "2026-09-01-issue-1173",
+      "publishedAt": "2026-09-01",
+      "isTest": true,
+      "title": {
+        "ja": "アプリアイコンを選べるようになりました ほか"
+      },
+      "body": {
+        "ja": "・アプリアイコンを24種類のデザインから選べるようになりました（Pro機能）\n・Todoに時刻を指定できるようになりました。これまで終日だけでしたが、予定と同じように開始・終了の時刻や通知も設定できます\n・月を選ぶパネルを横にスワイプすると、年を切り替えられるようになりました\n・ショートカットが1種類から8種類に増えました（iPhoneのみ）\n・Apple Watchの月カレンダーで、予定の色が見やすくなりました（iPhoneのみ）"
+      }
     }
   ]
 }
