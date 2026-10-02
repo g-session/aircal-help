@@ -2,67 +2,80 @@
   "schemaVersion": 1,
   "announcements": [
     {
-      "id": "2026-06-25-update-ios",
-      "publishedAt": "2026-06-25",
-      "platform": "ios",
-      "maxBuildNumber": 511,
-      "title": {
-        "ja": "新しい aircal をお届けします 🎉",
-        "en": "The new aircal is here 🎉"
-      },
-      "body": {
-        "ja": "使い心地を改善した新しいバージョンを公開しました。よろしければ App Store から最新版にアップデートしてお試しください。",
-        "en": "We've released a new version with improvements. Update to the latest version from the App Store whenever you like."
-      },
-      "link": {
-        "title": {
-          "ja": "App Store を開く",
-          "en": "Open App Store"
-        },
-        "url": "https://apps.apple.com/app/id6746650150"
-      },
-      "openLinkOnTap": true
-    },
-    {
       "id": "2026-06-25-review-ios",
       "publishedAt": "2026-06-25",
       "platform": "ios",
       "title": {
         "ja": "気に入ってくださったらぜひレビューよろしくお願いします！",
-        "en": "Please leave a review if you enjoy the app!"
+        "en": "Please leave a review if you enjoy the app!",
+        "cs": "Pokud se vám aircal líbí, budeme rádi za recenzi!",
+        "de": "Gefällt dir aircal? Wir freuen uns über eine Bewertung!",
+        "es": "¡Si te gusta la app, nos encantaría tu reseña!",
+        "fr": "Si aircal vous plaît, laissez-nous un avis !",
+        "hu": "Ha tetszik az aircal, írj nekünk értékelést!",
+        "id": "Kalau kamu suka, yuk beri ulasan!",
+        "it": "Se aircal ti piace, lasciaci una recensione!",
+        "ko": "마음에 드셨다면 리뷰를 남겨 주세요!",
+        "ms": "Jika anda suka, tinggalkan ulasan ya!",
+        "nb": "Liker du aircal? Legg gjerne igjen en anmeldelse!",
+        "nl": "Bevalt aircal? Laat gerust een review achter!",
+        "pl": "Jeśli aircal Ci się podoba, zostaw opinię!",
+        "pt": "Se você gostou, deixe uma avaliação!",
+        "ru": "Если вам нравится aircal, оставьте отзыв!",
+        "sv": "Gillar du aircal? Lämna gärna ett omdöme!",
+        "th": "ถ้าชอบ aircal ช่วยรีวิวให้เราหน่อยนะ!",
+        "vi": "Nếu bạn thích, hãy để lại đánh giá nhé!",
+        "zh": "喜欢的话，请给我们留个评价吧！",
+        "zh-Hant": "喜歡的話，請給我們留下評價吧！"
       },
       "body": {
         "ja": "aircal はお役に立っていますか？😊 もし気に入っていただけたら、★5 のレビューで教えてください。みなさんの声が、より良いアプリづくりの原動力です！",
-        "en": "Is aircal helping you out? 😊 If you enjoy it, let us know with a 5-star review. Your voice is what drives us to make the app even better!"
+        "en": "Is aircal helping you out? 😊 If you enjoy it, let us know with a 5-star review. Your voice is what drives us to make the app even better!",
+        "cs": "Pomáhá vám aircal? 😊 Pokud se vám líbí, dejte nám vědět hodnocením na 5 hvězdiček. Váš hlas je naší hnací silou při vytváření ještě lepší aplikace!",
+        "de": "Hilft dir aircal im Alltag? 😊 Wenn es dir gefällt, lass es uns mit einer 5-Sterne-Bewertung wissen. Deine Stimme motiviert uns, die App noch besser zu machen!",
+        "es": "¿Te está resultando útil aircal? 😊 Si te gusta, cuéntanoslo con una reseña de 5 estrellas. ¡Tu opinión es lo que nos impulsa a hacer una app aún mejor!",
+        "fr": "aircal vous est-il utile ? 😊 Si vous aimez aircal, dites-le-nous avec un avis 5 étoiles. Vos retours sont ce qui nous motive à créer une application toujours meilleure !",
+        "hu": "Hasznos számodra az aircal? 😊 Ha tetszik, jelezd egy 5 csillagos értékeléssel. A visszajelzésed ad erőt nekünk ahhoz, hogy még jobb alkalmazást készítsünk!",
+        "id": "Apakah aircal membantumu? 😊 Kalau kamu suka, beri tahu kami lewat ulasan bintang 5. Suaramu adalah penggerak kami untuk membuat aplikasi yang lebih baik lagi!",
+        "it": "aircal ti è utile? 😊 Se ti piace, faccelo sapere con una recensione a 5 stelle. La tua opinione è ciò che ci spinge a rendere l'app ancora migliore!",
+        "ko": "aircal이 도움이 되나요? 😊 마음에 드셨다면 ★5 리뷰로 알려 주세요. 여러분의 목소리가 더 나은 앱을 만드는 원동력입니다!",
+        "ms": "Adakah aircal membantu anda? 😊 Jika anda menyukainya, beritahu kami dengan ulasan 5 bintang. Suara anda ialah pendorong kami untuk membina aplikasi yang lebih baik!",
+        "nb": "Er aircal til nytte for deg? 😊 Hvis du liker appen, si fra med en anmeldelse med 5 stjerner. Tilbakemeldingene dine er drivkraften vår for å lage en enda bedre app!",
+        "nl": "Helpt aircal je op weg? 😊 Als je de app leuk vindt, laat het ons dan weten met een review van 5 sterren. Jouw mening is onze drijfveer om de app nog beter te maken!",
+        "pl": "Czy aircal Ci pomaga? 😊 Jeśli Ci się podoba, daj nam znać opinią z 5 gwiazdkami. Twoja opinia napędza nas do tworzenia jeszcze lepszej aplikacji!",
+        "pt": "O aircal está ajudando você? 😊 Se gostou, conte para a gente com uma avaliação de 5 estrelas. A sua opinião é o que nos motiva a criar um app ainda melhor!",
+        "ru": "aircal вам полезен? 😊 Если приложение вам понравилось, расскажите об этом в отзыве с оценкой ★5. Ваши отзывы вдохновляют нас делать приложение ещё лучше!",
+        "sv": "Har du nytta av aircal? 😊 Om du gillar appen, berätta det för oss med ett omdöme med 5 stjärnor. Dina synpunkter är vår drivkraft att göra appen ännu bättre!",
+        "th": "aircal เป็นประโยชน์กับคุณไหม 😊 ถ้าชอบ บอกเราได้ด้วยรีวิว 5 ดาว เสียงของคุณคือแรงผลักดันให้เราสร้างแอปที่ดียิ่งขึ้น!",
+        "vi": "aircal có hữu ích với bạn không? 😊 Nếu bạn thích, hãy cho chúng tôi biết bằng đánh giá 5 sao. Ý kiến của bạn là động lực để chúng tôi tạo ra ứng dụng ngày càng tốt hơn!",
+        "zh": "aircal 对你有帮助吗？😊 如果你喜欢，请给我们五星好评。大家的声音是我们打造更好应用的动力！",
+        "zh-Hant": "aircal 對你有幫助嗎？😊 如果你喜歡，歡迎給我們五星評價。大家的聲音是我們打造更好應用程式的動力！"
       },
       "link": {
         "title": {
           "ja": "App Store でレビューする",
-          "en": "Review on App Store"
+          "en": "Review on the App Store",
+          "cs": "Ohodnotit v App Store",
+          "de": "Im App Store bewerten",
+          "es": "Reseñar en App Store",
+          "fr": "Donner un avis sur l'App Store",
+          "hu": "Értékelés az App Store-ban",
+          "id": "Beri ulasan di App Store",
+          "it": "Recensisci su App Store",
+          "ko": "App Store에서 리뷰 작성",
+          "ms": "Beri ulasan di App Store",
+          "nb": "Anmeld i App Store",
+          "nl": "Review schrijven in de App Store",
+          "pl": "Oceń w App Store",
+          "pt": "Avaliar na App Store",
+          "ru": "Оставить отзыв в App Store",
+          "sv": "Lämna ett omdöme i App Store",
+          "th": "รีวิวบน App Store",
+          "vi": "Đánh giá trên App Store",
+          "zh": "在 App Store 评价",
+          "zh-Hant": "在 App Store 留下評價"
         },
         "url": "https://apps.apple.com/app/id6746650150?action=write-review"
-      },
-      "openLinkOnTap": true
-    },
-    {
-      "id": "2026-06-25-update-android",
-      "publishedAt": "2026-06-25",
-      "platform": "android",
-      "maxBuildNumber": 511,
-      "title": {
-        "ja": "新しい aircal をお届けします 🎉",
-        "en": "The new aircal is here 🎉"
-      },
-      "body": {
-        "ja": "使い心地を改善した新しいバージョンを公開しました。よろしければ Google Play から最新版にアップデートしてお試しください。",
-        "en": "We've released a new version with improvements. Update to the latest version from Google Play whenever you like."
-      },
-      "link": {
-        "title": {
-          "ja": "Google Play を開く",
-          "en": "Open Google Play"
-        },
-        "url": "https://play.google.com/store/apps/details?id=net.nexus_inc.calendar"
       },
       "openLinkOnTap": true
     },
@@ -72,16 +85,73 @@
       "platform": "android",
       "title": {
         "ja": "気に入ってくださったらぜひレビューよろしくお願いします！",
-        "en": "Please leave a review if you enjoy the app!"
+        "en": "Please leave a review if you enjoy the app!",
+        "cs": "Pokud se vám aircal líbí, budeme rádi za recenzi!",
+        "de": "Gefällt dir aircal? Wir freuen uns über eine Bewertung!",
+        "es": "¡Si te gusta la app, nos encantaría tu reseña!",
+        "fr": "Si aircal vous plaît, laissez-nous un avis !",
+        "hu": "Ha tetszik az aircal, írj nekünk értékelést!",
+        "id": "Kalau kamu suka, yuk beri ulasan!",
+        "it": "Se aircal ti piace, lasciaci una recensione!",
+        "ko": "마음에 드셨다면 리뷰를 남겨 주세요!",
+        "ms": "Jika anda suka, tinggalkan ulasan ya!",
+        "nb": "Liker du aircal? Legg gjerne igjen en anmeldelse!",
+        "nl": "Bevalt aircal? Laat gerust een review achter!",
+        "pl": "Jeśli aircal Ci się podoba, zostaw opinię!",
+        "pt": "Se você gostou, deixe uma avaliação!",
+        "ru": "Если вам нравится aircal, оставьте отзыв!",
+        "sv": "Gillar du aircal? Lämna gärna ett omdöme!",
+        "th": "ถ้าชอบ aircal ช่วยรีวิวให้เราหน่อยนะ!",
+        "vi": "Nếu bạn thích, hãy để lại đánh giá nhé!",
+        "zh": "喜欢的话，请给我们留个评价吧！",
+        "zh-Hant": "喜歡的話，請給我們留下評價吧！"
       },
       "body": {
         "ja": "aircal はお役に立っていますか？😊 もし気に入っていただけたら、★5 のレビューで教えてください。みなさんの声が、より良いアプリづくりの原動力です！",
-        "en": "Is aircal helping you out? 😊 If you enjoy it, let us know with a 5-star review. Your voice is what drives us to make the app even better!"
+        "en": "Is aircal helping you out? 😊 If you enjoy it, let us know with a 5-star review. Your voice is what drives us to make the app even better!",
+        "cs": "Pomáhá vám aircal? 😊 Pokud se vám líbí, dejte nám vědět hodnocením na 5 hvězdiček. Váš hlas je naší hnací silou při vytváření ještě lepší aplikace!",
+        "de": "Hilft dir aircal im Alltag? 😊 Wenn es dir gefällt, lass es uns mit einer 5-Sterne-Bewertung wissen. Deine Stimme motiviert uns, die App noch besser zu machen!",
+        "es": "¿Te está resultando útil aircal? 😊 Si te gusta, cuéntanoslo con una reseña de 5 estrellas. ¡Tu opinión es lo que nos impulsa a hacer una app aún mejor!",
+        "fr": "aircal vous est-il utile ? 😊 Si vous aimez aircal, dites-le-nous avec un avis 5 étoiles. Vos retours sont ce qui nous motive à créer une application toujours meilleure !",
+        "hu": "Hasznos számodra az aircal? 😊 Ha tetszik, jelezd egy 5 csillagos értékeléssel. A visszajelzésed ad erőt nekünk ahhoz, hogy még jobb alkalmazást készítsünk!",
+        "id": "Apakah aircal membantumu? 😊 Kalau kamu suka, beri tahu kami lewat ulasan bintang 5. Suaramu adalah penggerak kami untuk membuat aplikasi yang lebih baik lagi!",
+        "it": "aircal ti è utile? 😊 Se ti piace, faccelo sapere con una recensione a 5 stelle. La tua opinione è ciò che ci spinge a rendere l'app ancora migliore!",
+        "ko": "aircal이 도움이 되나요? 😊 마음에 드셨다면 ★5 리뷰로 알려 주세요. 여러분의 목소리가 더 나은 앱을 만드는 원동력입니다!",
+        "ms": "Adakah aircal membantu anda? 😊 Jika anda menyukainya, beritahu kami dengan ulasan 5 bintang. Suara anda ialah pendorong kami untuk membina aplikasi yang lebih baik!",
+        "nb": "Er aircal til nytte for deg? 😊 Hvis du liker appen, si fra med en anmeldelse med 5 stjerner. Tilbakemeldingene dine er drivkraften vår for å lage en enda bedre app!",
+        "nl": "Helpt aircal je op weg? 😊 Als je de app leuk vindt, laat het ons dan weten met een review van 5 sterren. Jouw mening is onze drijfveer om de app nog beter te maken!",
+        "pl": "Czy aircal Ci pomaga? 😊 Jeśli Ci się podoba, daj nam znać opinią z 5 gwiazdkami. Twoja opinia napędza nas do tworzenia jeszcze lepszej aplikacji!",
+        "pt": "O aircal está ajudando você? 😊 Se gostou, conte para a gente com uma avaliação de 5 estrelas. A sua opinião é o que nos motiva a criar um app ainda melhor!",
+        "ru": "aircal вам полезен? 😊 Если приложение вам понравилось, расскажите об этом в отзыве с оценкой ★5. Ваши отзывы вдохновляют нас делать приложение ещё лучше!",
+        "sv": "Har du nytta av aircal? 😊 Om du gillar appen, berätta det för oss med ett omdöme med 5 stjärnor. Dina synpunkter är vår drivkraft att göra appen ännu bättre!",
+        "th": "aircal เป็นประโยชน์กับคุณไหม 😊 ถ้าชอบ บอกเราได้ด้วยรีวิว 5 ดาว เสียงของคุณคือแรงผลักดันให้เราสร้างแอปที่ดียิ่งขึ้น!",
+        "vi": "aircal có hữu ích với bạn không? 😊 Nếu bạn thích, hãy cho chúng tôi biết bằng đánh giá 5 sao. Ý kiến của bạn là động lực để chúng tôi tạo ra ứng dụng ngày càng tốt hơn!",
+        "zh": "aircal 对你有帮助吗？😊 如果你喜欢，请给我们五星好评。大家的声音是我们打造更好应用的动力！",
+        "zh-Hant": "aircal 對你有幫助嗎？😊 如果你喜歡，歡迎給我們五星評價。大家的聲音是我們打造更好應用程式的動力！"
       },
       "link": {
         "title": {
           "ja": "Google Play でレビューする",
-          "en": "Review on Google Play"
+          "en": "Review on Google Play",
+          "cs": "Ohodnotit v Google Play",
+          "de": "Bei Google Play bewerten",
+          "es": "Reseñar en Google Play",
+          "fr": "Donner un avis sur Google Play",
+          "hu": "Értékelés a Google Play-en",
+          "id": "Beri ulasan di Google Play",
+          "it": "Recensisci su Google Play",
+          "ko": "Google Play에서 리뷰 작성",
+          "ms": "Beri ulasan di Google Play",
+          "nb": "Anmeld på Google Play",
+          "nl": "Review schrijven in Google Play",
+          "pl": "Oceń w Google Play",
+          "pt": "Avaliar no Google Play",
+          "ru": "Оставить отзыв в Google Play",
+          "sv": "Lämna ett omdöme i Google Play",
+          "th": "รีวิวบน Google Play",
+          "vi": "Đánh giá trên Google Play",
+          "zh": "在 Google Play 评价",
+          "zh-Hant": "在 Google Play 留下評價"
         },
         "url": "https://play.google.com/store/apps/details?id=net.nexus_inc.calendar"
       },
@@ -93,31 +163,99 @@
       "minBuildNumber": 602,
       "title": {
         "ja": "Todo機能をリリースしました",
-        "en": "The to-do feature is now available"
+        "en": "The to-do feature is now available",
+        "cs": "Přidali jsme funkci úkolů",
+        "de": "Die To-do-Funktion ist da",
+        "es": "Ya está disponible la función de tareas",
+        "fr": "Les tâches sont désormais disponibles",
+        "hu": "Mostantól teendőket is rögzíthetsz",
+        "id": "Fitur tugas sudah dirilis",
+        "it": "La funzione attività è ora disponibile",
+        "ko": "할 일 기능이 출시되었습니다",
+        "ms": "Ciri tugasan kini tersedia",
+        "nb": "Gjøremålsfunksjonen er her",
+        "nl": "Taken zijn nu beschikbaar",
+        "pl": "Funkcja zadań jest już dostępna",
+        "pt": "O recurso de tarefas já está disponível",
+        "ru": "В aircal появились задачи",
+        "sv": "Uppgiftsfunktionen är här",
+        "th": "เปิดตัวฟีเจอร์สิ่งที่ต้องทำแล้ว",
+        "vi": "Đã ra mắt tính năng việc cần làm",
+        "zh": "待办事项功能上线了",
+        "zh-Hant": "待辦事項功能推出了"
       },
       "body": {
         "ja": "予定登録ページからTodoとして登録ボタンを押すことでTodo登録が可能になりました\nTodo専用のウィジェットも追加しております（Pro機能）",
-        "en": "You can now create a to-do by tapping \"Register as to-do\" on the event creation page.\nA dedicated to-do widget has also been added (Pro feature)."
+        "en": "You can now create a to-do by tapping \"Add as a to-do\" on the event creation page.\nA dedicated to-do widget has also been added (Pro feature).",
+        "cs": "Úkol nyní můžete vytvořit klepnutím na „Registrovat jako úkol“ na stránce vytváření události.\nPřidali jsme také widget určený pro úkoly (funkce Pro).",
+        "de": "Du kannst jetzt To-dos anlegen: Tippe auf der Seite zum Erstellen eines Termins auf „Als To-do eintragen“.\nAußerdem gibt es jetzt ein eigenes To-do-Widget (Pro-Funktion).",
+        "es": "Ahora puedes crear una tarea tocando «Registrar como tarea» en la página de creación de eventos.\nTambién hemos añadido un widget exclusivo para tareas (función Pro).",
+        "fr": "Vous pouvez désormais créer une tâche en appuyant sur « Enregistrer comme tâche » sur la page de création d'un événement.\nUn widget dédié aux tâches a également été ajouté (fonctionnalité Pro).",
+        "hu": "Mostantól teendőt hozhatsz létre úgy, hogy az esemény létrehozására szolgáló oldalon a „Teendőként rögzítés” gombra koppintasz.\nÚj, kifejezetten teendőkhöz készült widget is elérhető (Pro funkció).",
+        "id": "Sekarang kamu bisa membuat tugas dengan mengetuk \"Daftarkan sebagai tugas\" di halaman pembuatan acara.\nWidget khusus tugas juga sudah ditambahkan (fitur Pro).",
+        "it": "Ora puoi creare un'attività toccando «Registra come attività» nella pagina di creazione dell'evento.\nÈ stato aggiunto anche un widget dedicato alle attività (funzione Pro).",
+        "ko": "이제 일정 등록 페이지에서 \"할 일로 등록\" 버튼을 눌러 할 일을 등록할 수 있습니다.\n할 일 전용 위젯도 추가되었습니다(Pro 기능).",
+        "ms": "Anda kini boleh mencipta tugasan dengan mengetik \"Daftar sebagai tugasan\" pada halaman penciptaan acara.\nWidget khas untuk tugasan juga telah ditambah (ciri Pro).",
+        "nb": "Du kan nå opprette et gjøremål ved å trykke på «Registrer som gjøremål» på siden for å opprette en hendelse.\nEn egen widget for gjøremål er også lagt til (Pro-funksjon).",
+        "nl": "Je kunt nu een taak aanmaken door op de pagina voor het aanmaken van een afspraak op “Registreren als taak” te tikken.\nEr is ook een speciale takenwidget toegevoegd (Pro-functie).",
+        "pl": "Teraz możesz utworzyć zadanie, dotykając „Zarejestruj jako zadanie” na stronie tworzenia wydarzenia.\nDodaliśmy też widżet przeznaczony do zadań (funkcja Pro).",
+        "pt": "Agora você pode criar uma tarefa tocando em “Registrar como tarefa” na página de criação de evento.\nTambém adicionamos um widget exclusivo para tarefas (recurso Pro).",
+        "ru": "Теперь можно создать задачу, нажав «Зарегистрировать как задачу» на странице создания события.\nТакже добавлен специальный виджет для задач (функция Pro).",
+        "sv": "Nu kan du skapa en uppgift genom att trycka på ”Registrera som uppgift” på sidan för att skapa en händelse.\nVi har också lagt till en egen widget för uppgifter (Pro-funktion).",
+        "th": "ตอนนี้คุณสามารถสร้างสิ่งที่ต้องทำได้โดยแตะ “เพิ่มเป็นสิ่งที่ต้องทำ” ในหน้าสร้างกิจกรรม\nนอกจากนี้ยังเพิ่มวิดเจ็ตเฉพาะสำหรับสิ่งที่ต้องทำด้วย (ฟีเจอร์ Pro)",
+        "vi": "Giờ đây bạn có thể tạo việc cần làm bằng cách nhấn “Đăng ký dưới dạng việc cần làm” ở trang tạo sự kiện.\nWidget dành riêng cho việc cần làm cũng đã được thêm vào (tính năng Pro).",
+        "zh": "现在可以在创建日程页面点击“登记为待办事项”来创建待办事项了。\n还新增了待办事项专用小组件（Pro 功能）。",
+        "zh-Hant": "現在可以在新增行程頁面點選「設為待辦事項」來建立待辦事項了。\n也新增了待辦事項專用的小工具（Pro 功能）。"
       }
     },
     {
       "id": "2026-09-01-issue-1173",
       "publishedAt": "2026-09-01",
       "title": {
-        "ja": "アプリアイコンを選べるようになりました ほか"
+        "ja": "アプリアイコンを選べるようになりました ほか",
+        "en": "You can now choose your app icon, and more",
+        "cs": "Výběr ikony aplikace a další novinky",
+        "de": "App-Symbol frei wählbar und mehr",
+        "es": "Elige el icono de la app y descubre otras novedades",
+        "fr": "Choisissez l'icône de l'app, et plus encore",
+        "hu": "Mostantól kiválaszthatod az alkalmazásikont, és még sok más",
+        "id": "Pilihan ikon aplikasi dan pembaruan lainnya",
+        "it": "Scegli l'icona dell'app e scopri le altre novità",
+        "ko": "앱 아이콘 선택 등 새로운 기능이 추가되었습니다",
+        "ms": "Kini anda boleh memilih ikon aplikasi dan banyak lagi",
+        "nb": "Du kan nå velge appikon, og mer",
+        "nl": "Je kunt nu je app-pictogram kiezen, en meer",
+        "pl": "Możesz już wybrać ikonę aplikacji, i nie tylko",
+        "pt": "Escolha o ícone do app e confira outras novidades",
+        "ru": "Теперь можно выбрать значок приложения, и не только",
+        "sv": "Nu kan du välja appikon, med mera",
+        "th": "เลือกไอคอนแอปได้แล้ว และอื่น ๆ",
+        "vi": "Chọn biểu tượng ứng dụng và khám phá các cập nhật khác",
+        "zh": "现在可以选择应用图标了，还有更多更新",
+        "zh-Hant": "現在可以選擇應用程式圖示了，還有更多更新"
       },
       "body": {
-        "ja": "・アプリアイコンを24種類のデザインから選べるようになりました（Pro機能）\n・Todoに時刻を指定できるようになりました。これまで終日だけでしたが、予定と同じように開始・終了の時刻や通知も設定できます\n・月を選ぶパネルを横にスワイプすると、年を切り替えられるようになりました\n・ショートカットが1種類から8種類に増えました（iPhoneのみ）\n・Apple Watchの月カレンダーで、予定の色が見やすくなりました（iPhoneのみ）"
-      }
-    },
-    {
-      "id": "2026-09-15-issue-1304",
-      "publishedAt": "2026-09-15",
-      "title": {
-        "ja": "【近日公開】予定の色・ラベルを共有できるようになります"
-      },
-      "body": {
-        "ja": "次回のアップデートから、予定の色とラベルがカレンダーの共有相手と共通になります。\nたとえば「子供のお迎え」「習い事」などのラベルを設定して同じ色・ラベルを共有相手と使えます。\n\n現在お使いのラベル名がカレンダーの共有相手と共有されますので、アップデート前に、ラベル名をご確認ください。"
+        "ja": "・アプリアイコンを24種類のデザインから選べるようになりました（Pro機能）\n・Todoに時刻を指定できるようになりました。これまで終日だけでしたが、予定と同じように開始・終了の時刻や通知も設定できます\n・月を選ぶパネルを横にスワイプすると、年を切り替えられるようになりました\n・ショートカットが1種類から8種類に増えました（iPhoneのみ）\n・Apple Watchの月カレンダーで、予定の色が見やすくなりました（iPhoneのみ）",
+        "en": "• You can now choose your app icon from 24 designs (Pro feature)\n• To-dos can now have a specific time. Until now they were all-day only, but you can set start and end times and notifications just like events\n• Swipe the month picker panel sideways to switch years\n• Shortcuts have grown from 1 to 8 (iPhone only)\n• Event colors are easier to see in the Apple Watch month calendar (iPhone only)",
+        "cs": "• Ikonu aplikace si nyní můžete vybrat z 24 designů (funkce Pro)\n• U úkolů lze nově nastavit čas. Dosud šlo jen o celodenní úkoly, nyní však můžete stejně jako u událostí nastavit začátek, konec i oznámení\n• Když posunete panel pro výběr měsíce do strany, můžete přepínat roky\n• Počet zkratek se zvýšil z 1 na 8 (pouze iPhone)\n• V měsíčním kalendáři na Apple Watch jsou barvy událostí lépe vidět (pouze iPhone)",
+        "de": "• Du kannst jetzt aus 24 Designs ein App-Symbol auswählen (Pro-Funktion)\n• To-dos können jetzt eine Uhrzeit haben. Bisher waren sie nur ganztägig, jetzt kannst du wie bei Terminen Beginn, Ende und Benachrichtigungen festlegen\n• Wische im Monatsauswahl-Feld zur Seite, um das Jahr zu wechseln\n• Die Zahl der Kurzbefehle ist von 1 auf 8 gestiegen (nur iPhone)\n• In der Monatsansicht auf der Apple Watch sind die Farben der Termine jetzt besser erkennbar (nur iPhone)",
+        "es": "• Ahora puedes elegir el icono de la app entre 24 diseños (función Pro)\n• Las tareas ahora pueden tener hora. Hasta ahora solo eran de todo el día, pero ahora puedes configurar la hora de inicio y de fin y las notificaciones, igual que en los eventos\n• Desliza lateralmente el panel de selección de mes para cambiar de año\n• Los atajos han pasado de 1 a 8 (solo iPhone)\n• En el calendario mensual del Apple Watch, los colores de los eventos ahora se ven mejor (solo iPhone)",
+        "fr": "• Vous pouvez désormais choisir l'icône de l'app parmi 24 designs (fonctionnalité Pro)\n• Les tâches peuvent maintenant avoir une heure. Jusqu'ici, seul le mode « Toute la journée » était disponible, mais vous pouvez désormais définir l'heure de début et de fin ainsi que des notifications, comme pour les événements\n• Faites glisser latéralement le panneau de sélection du mois pour changer d'année\n• Le nombre de raccourcis passe de 1 à 8 (iPhone uniquement)\n• Dans le calendrier mensuel de l'Apple Watch, les couleurs des événements sont plus lisibles (iPhone uniquement)",
+        "hu": "• Az alkalmazásikont mostantól 24 dizájn közül választhatod ki (Pro funkció)\n• A teendőkhöz mostantól időpontot is megadhatsz. Eddig csak egész naposak lehettek, de most az eseményekhez hasonlóan kezdési és befejezési időt, valamint értesítést is beállíthatsz\n• A hónapválasztó panelt oldalra húzva válthatsz évet\n• A parancsok száma 1-ről 8-ra nőtt (csak iPhone)\n• Az Apple Watch havi naptárában jobban láthatók az események színei (csak iPhone)",
+        "id": "• Kamu bisa memilih ikon aplikasi dari 24 desain (fitur Pro)\n• Tugas kini bisa diberi waktu. Sebelumnya, hanya pengaturan “Sepanjang hari” yang tersedia, tetapi sekarang kamu bisa mengatur waktu mulai, waktu selesai, dan notifikasi seperti pada acara\n• Geser panel pemilih bulan ke samping untuk berganti tahun\n• Jumlah pintasan bertambah dari 1 menjadi 8 (khusus iPhone)\n• Warna acara di kalender bulanan Apple Watch kini lebih mudah dilihat (khusus iPhone)",
+        "it": "• Ora puoi scegliere l'icona dell'app tra 24 design (funzione Pro)\n• Le attività ora possono avere un orario. Finora erano solo per tutto il giorno, ma adesso puoi impostare orario di inizio e di fine e notifiche, proprio come per gli eventi\n• Scorri di lato il pannello di selezione del mese per cambiare anno\n• I comandi rapidi passano da 1 a 8 (solo iPhone)\n• Nel calendario mensile di Apple Watch i colori degli eventi sono più leggibili (solo iPhone)",
+        "ko": "・앱 아이콘을 24가지 디자인 중에서 고를 수 있게 되었습니다(Pro 기능)\n・할 일에 시간을 지정할 수 있게 되었습니다. 지금까지는 종일만 가능했지만, 이제 일정처럼 시작·종료 시간과 알림도 설정할 수 있습니다\n・월 선택 패널을 좌우로 스와이프하면 연도를 바꿀 수 있게 되었습니다\n・단축어가 1종류에서 8종류로 늘었습니다(iPhone 전용)\n・Apple Watch의 월 캘린더에서 일정 색상이 더 잘 보이게 되었습니다(iPhone 전용)",
+        "ms": "• Anda kini boleh memilih ikon aplikasi daripada 24 reka bentuk (ciri Pro)\n• Tugasan kini boleh diberi masa. Sebelum ini, hanya tetapan “Sepanjang hari” tersedia, tetapi kini anda boleh menetapkan masa mula, masa tamat dan pemberitahuan seperti acara\n• Leret panel pemilihan bulan ke tepi untuk menukar tahun\n• Bilangan Pintasan bertambah daripada 1 kepada 8 (iPhone sahaja)\n• Warna acara pada kalendar bulanan Apple Watch kini lebih mudah dilihat (iPhone sahaja)",
+        "nb": "• Du kan nå velge appikon blant 24 design (Pro-funksjon)\n• Gjøremål kan nå ha et klokkeslett. Tidligere kunne de bare gjelde hele dagen, men nå kan du angi start- og sluttid og varsler, akkurat som for hendelser\n• Sveip månedsvelgeren sideveis for å bytte år\n• Antall snarveier har økt fra 1 til 8 (kun iPhone)\n• Hendelsesfargene er blitt lettere å se i månedskalenderen på Apple Watch (kun iPhone)",
+        "nl": "• Je kunt je app-pictogram nu kiezen uit 24 ontwerpen (Pro-functie)\n• Taken kunnen nu een tijdstip krijgen. Tot nu toe kon je taken alleen voor de hele dag aanmaken, maar je kunt nu net als bij afspraken een begin- en eindtijd en meldingen instellen\n• Veeg het paneel voor de maandkeuze opzij om van jaar te wisselen\n• Er zijn nu 8 opdrachten in plaats van 1 (alleen iPhone)\n• In de maandkalender van de Apple Watch zijn de kleuren van afspraken beter zichtbaar (alleen iPhone)",
+        "pl": "• Ikonę aplikacji możesz teraz wybrać spośród 24 projektów (funkcja Pro)\n• Zadaniom można teraz przypisać godzinę. Dotąd były tylko całodniowe, a teraz możesz ustawić godzinę rozpoczęcia i zakończenia oraz powiadomienia, tak jak w wydarzeniach\n• Przesuń panel wyboru miesiąca w bok, aby zmienić rok\n• Liczba skrótów wzrosła z 1 do 8 (tylko iPhone)\n• W miesięcznym kalendarzu na Apple Watch kolory wydarzeń są lepiej widoczne (tylko iPhone)",
+        "pt": "• Você agora pode escolher o ícone do app entre 24 designs (recurso Pro)\n• As tarefas agora podem ter horário. Até então eram apenas de dia inteiro, mas agora você pode definir horário de início e término e notificações, como nos eventos\n• Deslize o painel de seleção de mês para o lado para trocar de ano\n• Os atalhos aumentaram de 1 para 8 (somente iPhone)\n• No calendário mensal do Apple Watch, as cores dos eventos ficaram mais fáceis de ver (somente iPhone)",
+        "ru": "• Значок приложения теперь можно выбрать из 24 дизайнов (функция Pro)\n• Для задач теперь можно указать время. Раньше они были только на весь день, а теперь, как и для событий, можно задать время начала и окончания и уведомления\n• Проведите по панели выбора месяца в сторону, чтобы переключить год\n• Быстрых команд стало 8 вместо одной (только iPhone)\n• В месячном календаре Apple Watch цвета событий стали лучше различимы (только iPhone)",
+        "sv": "• Du kan nu välja appikon bland 24 designer (Pro-funktion)\n• Uppgifter kan nu ha en tid. Tidigare gällde de bara hela dagen, men nu kan du ange start- och sluttid samt aviseringar, precis som för händelser\n• Svep åt sidan på månadsväljaren för att byta år\n• Antalet genvägar har ökat från 1 till 8 (endast iPhone)\n• Händelsernas färger syns nu tydligare i månadskalendern på Apple Watch (endast iPhone)",
+        "th": "• เลือกไอคอนแอปได้จาก 24 ดีไซน์ (ฟีเจอร์ Pro)\n• ตั้งเวลาให้สิ่งที่ต้องทำได้แล้ว จากเดิมที่เป็นได้เฉพาะตลอดวัน ตอนนี้ตั้งเวลาเริ่มต้น เวลาสิ้นสุด และการแจ้งเตือนได้เหมือนกับกิจกรรม\n• ปัดแผงเลือกเดือนไปด้านข้างเพื่อเปลี่ยนปีได้แล้ว\n• คำสั่งลัดเพิ่มขึ้นจาก 1 เป็น 8 แบบ (เฉพาะ iPhone)\n• สีของกิจกรรมในปฏิทินรายเดือนบน Apple Watch ดูง่ายขึ้น (เฉพาะ iPhone)",
+        "vi": "• Bạn có thể chọn biểu tượng ứng dụng từ 24 thiết kế (tính năng Pro)\n• Việc cần làm giờ đây có thể đặt giờ. Trước đây chỉ có chế độ “Cả ngày”, nhưng bây giờ bạn có thể đặt giờ bắt đầu, giờ kết thúc và thông báo giống như sự kiện\n• Vuốt ngang bảng chọn tháng để chuyển năm\n• Số lượng phím tắt tăng từ 1 lên 8 (chỉ iPhone)\n• Màu sự kiện trên lịch tháng của Apple Watch dễ nhìn hơn (chỉ iPhone)",
+        "zh": "・应用图标现在可以从 24 种设计中选择（Pro 功能）\n・待办事项现在可以指定时间了。以前只能是全天，现在和日程一样可以设置开始、结束时间和提醒\n・左右滑动月份选择面板即可切换年份\n・快捷指令从 1 种增加到 8 种（仅限 iPhone）\n・Apple Watch 的月历中，日程颜色更容易辨认了（仅限 iPhone）",
+        "zh-Hant": "・應用程式圖示現在可以從 24 種設計中選擇（Pro 功能）\n・待辦事項現在可以指定時間了。以前只能設為全天，現在和行程一樣可以設定開始、結束時間與通知\n・左右滑動月份選擇面板即可切換年份\n・捷徑從 1 種增加到 8 種（僅限 iPhone）\n・Apple Watch 的月曆中，行程顏色更容易辨認了（僅限 iPhone）"
       }
     }
   ]
